@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    width:100%;
+    height:50px;
+    /*background-color: blueviolet;*/
+    text-align: center;
+}
+.pict{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /*background-color: blue;*/
+    width:100%;
+    height:90vh;
+}
+.pict div{
+    width:40%;
+    height:85vh;
+    
+    box-shadow: 5px 5px 5px rgb(103, 104, 105); 
+
+    
+}
+.pict-item{
+    /*background-color: brown;*/
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.img1{
+    width:100%;
+    height:70vh;
+    background-color: antiquewhite;
+}
+h3,p{
+  padding:5px ;
+}
+
